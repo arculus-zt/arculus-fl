@@ -116,9 +116,9 @@ python3 server.py
 
 #### Launch federated clients (on different terminals or nodes)
 ```bash
-python3 federated/client.py --client_id 1
+python3 federated/client.py -i 1
 ```
-here **client_id** will be the ID of the individual FL participant nodes clients. For the second client run the same script with `--client_id  2`
+here **i** is the ID of the individual FL participant node client. For the second client, run the same script with `-i 2`
 
 
 # DDoS Attack Generation
